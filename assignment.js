@@ -101,9 +101,11 @@ function tasktwo() {
     console.log("\nThe Area of the rectangle with Lenght: 10 and Width : 5 is ", calculatearea(10, 5));
     console.log("\nThe reverse of the Name Alina is : ", reversestring("Alina"));
     console.log("\nThe 25 degree celsius temprature is", convertCelsiusToFahrenheit(25), " in Fahrenheit");
+    // functiona declaration for adding two numbers
     function add(x, y) {
         return x + y;
     }
+    // function declaration check if number is odd or even
     function checkEvenOrOdd(x) {
         if (x / 2 == 0) {
             return "The Number is Even";
@@ -112,6 +114,7 @@ function tasktwo() {
             return "The Number is Odd";
         }
     }
+    // function declaration to calculate area
     function calculatearea(length, width) {
         return length * width;
     }
@@ -123,6 +126,7 @@ function tasktwo() {
         }
         return revesed_name;
     }
+    // function declaration to convert temp
     function convertCelsiusToFahrenheit(tempp) {
         return ((tempp) * ((9 / 5) + 32));
     }
